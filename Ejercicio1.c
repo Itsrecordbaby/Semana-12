@@ -7,22 +7,23 @@ struct alumno {
 };
 
 int main() {
-    struct alumno a1;
+ struct alumno a1, a2, a3, a4, a5;
 
-    printf("Ingrese el nombre del alumno: ");
+    printf("Ingrese el nombre del primer alumno: ");
     gets(a1.nombre);
 
-    printf("Ingrese la carrera del alumno: ");
+    printf("Ingrese la carrera del primer alumno: ");
     gets(a1.carrera);
 
-    printf("Ingrese la direccion del alumno: ");
+    printf("Ingrese la dirección del primer alumno: ");
     gets(a1.direccion);
 
-    printf("Ingrese la edad del alumno: ");
+    printf("Ingrese la edad del primer alumno: ");
     scanf("%d", &a1.edad);
 
-    printf("Ingrese el promedio del alumno: ");
+    printf("Ingrese el promedio del primer alumno: ");
     scanf("%f", &a1.promedio);
+    getchar(); // Consumir el carácter de nueva línea residual
 
     printf("\nDatos del primer alumno:\n");
     puts(a1.nombre);
@@ -30,6 +31,7 @@ int main() {
     puts(a1.direccion);
     printf("Edad: %d\n", a1.edad);
     printf("Promedio: %.2f\n", a1.promedio);
+
 
 struct alumno a2;
 
