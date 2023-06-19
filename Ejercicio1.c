@@ -55,77 +55,77 @@ struct alumno a2;
     printf("Edad: %d\n", a2.edad);
     printf("Promedio: %.2f\n", a2.promedio);
 
-    struct alumno a1;
+    struct alumno a3;
 
     printf("Ingrese el nombre del alumno: ");
-    gets(a1.nombre);
+    gets(a3.nombre);
 
     printf("Ingrese la carrera del alumno: ");
-    gets(a1.carrera);
+    gets(a3.carrera);
 
     printf("Ingrese la dirección del alumno: ");
-    gets(a1.direccion);
+    gets(a3.direccion);
 
     printf("Ingrese la edad del alumno: ");
-    scanf("%d", &a1.edad);
+    scanf("%d", &a3.edad);
 
     printf("Ingrese el promedio del alumno: ");
-    scanf("%f", &a1.promedio);
+    scanf("%f", &a3.promedio);
 
     printf("\nDatos del alumno:\n");
-    puts(a1.nombre);
-    puts(a1.carrera);
-    puts(a1.direccion);
-    printf("Edad: %d\n", a1.edad);
-    printf("Promedio: %.2f\n", a1.promedio);
+    puts(a3.nombre);
+    puts(a3.carrera);
+    puts(a3.direccion);
+    printf("Edad: %d\n", a3.edad);
+    printf("Promedio: %.2f\n", a3.promedio);
 
-    struct alumno a1;
+    struct alumno a4;
 
     printf("Ingrese el nombre del alumno: ");
-    gets(a1.nombre);
+    gets(a4.nombre);
 
     printf("Ingrese la carrera del alumno: ");
-    gets(a1.carrera);
+    gets(a4.carrera);
 
     printf("Ingrese la dirección del alumno: ");
-    gets(a1.direccion);
+    gets(a4.direccion);
 
     printf("Ingrese la edad del alumno: ");
-    scanf("%d", &a1.edad);
+    scanf("%d", &a4.edad);
 
     printf("Ingrese el promedio del alumno: ");
-    scanf("%f", &a1.promedio);
+    scanf("%f", &a4.promedio);
 
     printf("\nDatos del alumno:\n");
-    puts(a1.nombre);
-    puts(a1.carrera);
-    puts(a1.direccion);
-    printf("Edad: %d\n", a1.edad);
-    printf("Promedio: %.2f\n", a1.promedio);
+    puts(a4.nombre);
+    puts(a4.carrera);
+    puts(a4.direccion);
+    printf("Edad: %d\n", a4.edad);
+    printf("Promedio: %.2f\n", a4.promedio);
 
-    struct alumno a1;
+    struct alumno a5;
 
     printf("Ingrese el nombre del alumno: ");
-    gets(a1.nombre);
+    gets(a5.nombre);
 
     printf("Ingrese la carrera del alumno: ");
-    gets(a1.carrera);
+    gets(a5.carrera);
 
     printf("Ingrese la dirección del alumno: ");
-    gets(a1.direccion);
+    gets(a5.direccion);
 
     printf("Ingrese la edad del alumno: ");
-    scanf("%d", &a1.edad);
+    scanf("%d", &a5.edad);
 
     printf("Ingrese el promedio del alumno: ");
-    scanf("%f", &a1.promedio);
+    scanf("%f", &a5.promedio);
 
     printf("\nDatos del alumno:\n");
-    puts(a1.nombre);
-    puts(a1.carrera);
-    puts(a1.direccion);
-    printf("Edad: %d\n", a1.edad);
-    printf("Promedio: %.2f\n", a1.promedio);
+    puts(a5.nombre);
+    puts(a5.carrera);
+    puts(a5.direccion);
+    printf("Edad: %d\n", a5.edad);
+    printf("Promedio: %.2f\n", a5.promedio);
 
     return 0;
 }
