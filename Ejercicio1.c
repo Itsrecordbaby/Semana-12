@@ -33,22 +33,22 @@ int main() {
     printf("Promedio: %.2f\n", a1.promedio);
 
 
-struct alumno a2;
-
-    printf("\nIngrese el nombre del alumno: ");
+ printf("\nIngrese el nombre del segundo alumno: ");
+    getchar(); // Consumir el carácter de nueva línea residual
     gets(a2.nombre);
 
-    printf("Ingrese la carrera del alumno: ");
+    printf("Ingrese la carrera del segundo alumno: ");
     gets(a2.carrera);
 
-    printf("Ingrese la direccion del alumno: ");
+    printf("Ingrese la dirección del segundo alumno: ");
     gets(a2.direccion);
 
-    printf("Ingrese la edad del alumno: ");
+    printf("Ingrese la edad del segundo alumno: ");
     scanf("%d", &a2.edad);
 
-    printf("Ingrese el promedio del alumno: ");
+    printf("Ingrese el promedio del segundo alumno: ");
     scanf("%f", &a2.promedio);
+    getchar(); // Consumir el carácter de nueva línea residual
 
     printf("\nDatos del segundo alumno:\n");
     puts(a2.nombre);
@@ -57,22 +57,22 @@ struct alumno a2;
     printf("Edad: %d\n", a2.edad);
     printf("Promedio: %.2f\n", a2.promedio);
 
-    struct alumno a3;
-
-    printf("\nIngrese el nombre del alumno: ");
+    printf("\nIngrese el nombre del tercer alumno: ");
+    getchar(); // Consumir el carácter de nueva línea residual
     gets(a3.nombre);
 
-    printf("Ingrese la carrera del alumno: ");
+    printf("Ingrese la carrera del tercer alumno: ");
     gets(a3.carrera);
 
-    printf("Ingrese la direccion del alumno: ");
+    printf("Ingrese la dirección del tercer alumno: ");
     gets(a3.direccion);
 
-    printf("Ingrese la edad del alumno: ");
+    printf("Ingrese la edad del tercer alumno: ");
     scanf("%d", &a3.edad);
 
-    printf("Ingrese el promedio del alumno: ");
+    printf("Ingrese el promedio del tercer alumno: ");
     scanf("%f", &a3.promedio);
+    getchar(); // Consumir el carácter de nueva línea residual
 
     printf("\nDatos del tercer alumno:\n");
     puts(a3.nombre);
@@ -81,22 +81,22 @@ struct alumno a2;
     printf("Edad: %d\n", a3.edad);
     printf("Promedio: %.2f\n", a3.promedio);
 
-    struct alumno a4;
-
-    printf("\nIngrese el nombre del alumno: ");
+    printf("\nIngrese el nombre del cuarto alumno: ");
+    getchar(); // Consumir el carácter de nueva línea residual
     gets(a4.nombre);
 
-    printf("Ingrese la carrera del alumno: ");
+    printf("Ingrese la carrera del cuarto alumno: ");
     gets(a4.carrera);
 
-    printf("Ingrese la direccion del alumno: ");
+    printf("Ingrese la dirección del cuarto alumno: ");
     gets(a4.direccion);
 
-    printf("Ingrese la edad del alumno: ");
+    printf("Ingrese la edad del cuarto alumno: ");
     scanf("%d", &a4.edad);
 
-    printf("Ingrese el promedio del alumno: ");
+    printf("Ingrese el promedio del cuarto alumno: ");
     scanf("%f", &a4.promedio);
+    getchar(); // Consumir el carácter de nueva línea residual
 
     printf("\nDatos del cuarto alumno:\n");
     puts(a4.nombre);
@@ -105,22 +105,22 @@ struct alumno a2;
     printf("Edad: %d\n", a4.edad);
     printf("Promedio: %.2f\n", a4.promedio);
 
-    struct alumno a5;
-
-    printf("\nIngrese el nombre del alumno: ");
+    printf("\nIngrese el nombre del quinto alumno: ");
+    getchar(); // Consumir el carácter de nueva línea residual
     gets(a5.nombre);
 
-    printf("Ingrese la carrera del alumno: ");
+    printf("Ingrese la carrera del quinto alumno: ");
     gets(a5.carrera);
 
-    printf("Ingrese la direccion del alumno: ");
+    printf("Ingrese la dirección del quinto alumno: ");
     gets(a5.direccion);
 
-    printf("Ingrese la edad del alumno: ");
+    printf("Ingrese la edad del quinto alumno: ");
     scanf("%d", &a5.edad);
 
-    printf("Ingrese el promedio del alumno: ");
+    printf("Ingrese el promedio del quinto alumno: ");
     scanf("%f", &a5.promedio);
+    getchar(); // Consumir el carácter de nueva línea residual
 
     printf("\nDatos del quinto alumno:\n");
     puts(a5.nombre);
